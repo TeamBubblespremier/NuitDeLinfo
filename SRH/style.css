@@ -1,0 +1,99 @@
+#logo1
+{
+	margin:0 0px 0 350px;
+	width:700px;
+}
+#logo2
+{
+	margin:0 0px 0 300px;
+	width:800px;
+}
+#logo3
+{
+	margin:0 0px 0 125px;
+	width:800px;
+}
+#logo4
+{
+	margin:0 0px 0 300px;
+	width:800px;
+}
+#logo5
+{
+	margin:0 0px 0 300px;
+	width:800px;
+}
+#logo6
+{
+	margin:0 0px 0 450px;
+	width:400px;
+	border: 2mm ridge rgba(211, 220, 50, .6);
+	border-color:#157128;
+}
+
+
+.watermark {
+    position: relative;
+}
+
+
+#para1{
+	font-size : 20px;
+	margin : 0px 0px 50px 0px;  
+	line-height:40px;
+	text-align:center;
+	color:green;
+	font-color:white;
+	font-family: "Lucida Console", Courier, monospace;
+	animation: .8s shake infinite alternate;
+	border: 2mm ridge rgba(211, 220, 50, .6);
+	border-color:#157128;
+}
+
+#para2{
+	font-size : 20px;
+	margin : 0px 0px 40px 0px;  
+	line-height:30px;
+	text-align:center;
+	color:green;
+	background-color: white;
+	font-color:white;
+	font-family: "Lucida Console", Courier, monospace;
+	animation: .8s shake infinite alternate;
+	border: 2mm ridge rgba(211, 220, 50, .6);
+	border-color:#157128;
+}
+
+h2
+{
+	text-align:center;
+	color:green;
+	font-family: "Lucida Console", Courier, monospace;
+}
+
+button
+{
+	font-size : 20px;
+	margin : 0px 0px 50px 575px;  
+	line-height:40px;
+	text-align:center;
+	color:green;
+	font-family: "Lucida Console", Courier, monospace;
+	animation: .8s shake infinite alternate;
+	border: 2mm ridge rgba(211, 220, 50, .6);
+	border-color:#157128;
+}
+
+#para1
+{
+	font-size : 20px;
+	margin : 0px 0px 50px -50px;  
+	line-height:40px;
+	text-align:center;
+	color:green;
+	background-color: white;
+	font-family: "Lucida Console", Courier, monospace;
+	animation: .8s shake infinite alternate;
+	border: 2mm ridge rgba(211, 220, 50, .6);
+	border-color:#157128;
+}
