@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ma première page web</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgb(219, 227, 134); /* Couleur de fond en RGB */
+        }
+        .terre_saine {
+            width: 100%;
+            max-width: 600px; /* Limite la largeur maximale de l'image à 600px */
+            margin-top: -90px; /* Ajuste la position verticale du GIF */
+        }
+        .lecodilemme {
+            width: 100%;
+            max-width: 800px; /* Limite la largeur maximale de l'image */
+            margin-top: -50px; /* Ajuste la position verticale du GIF */
+        }
+	.economie {
+	    width: 100%;
+	    position : relative;
+            max-width: 800px; /* Limite la largeur maximale de l'image */
+            bottom: -50px;
+	    /*margin-top: -70px; Ajuste la position verticale du GIF */
+        }
+        .bouton-milieu {
+            display: inline-block;
+            width: -1500px;
+            height: 60px;
+            border-radius: 60%; /* Rend le bouton rond */
+            background-color: lightblue;
+            text-align: center;
+            line-height: 60px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 30px;
+	    position: absolute;
+            margin-top: 380px; /* Espacement du bouton par rapport aux images */
+        }
+        .bouton-gauche {
+            margin-top: 10px; /* Espacement supplémentaire */
+            margin-right: auto; /* Place le bouton le plus à gauche */
+            padding: 10px 20px; /* Ajuste les dimensions du bouton */
+            border-radius: 5px; /* Rend le bouton rectangulaire */
+            background-color: lightgreen;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .bouton-droit {
+            margin-top: 615px; /* Espacement supplémentaire */
+            margin-left: auto; /* Place le bouton le plus à gauche */
+            padding: 10px 20px; /* Ajuste les dimensions du bouton */
+            border-radius: 5px; /* Rend le bouton rectangulaire */
+            background-color: lightgreen;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+	    position:absolute;
+	    left: 1400px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Contenu du bandeau -->
+    </header>
+    <img class="terre_saine" src="C:\Ecodilemme\IMG_3286.jpg" alt="Une terre saine">
+    <img class="lecodilemme" src="C:\Ecodilemme\coollogo_com-279591356.gif" alt="GIF">
+    <img class="economie" src="C:\Ecodilemme\coollogo_com-255173739.gif" alt="GIF">
+    <a href="C:\Ecodilemme\Salle_de_bain.html" class="bouton-milieu">QUIZZ</a>
+    <a href="C:\Ecodilemme\Crédit.html" class="bouton-gauche">Crédit</a>
+    <a href="C:\Ecodilemme\" class="bouton-droit">Source</a>
+
+</body>
+</html>
